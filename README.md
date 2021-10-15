@@ -10,7 +10,7 @@ npm init
 npm config
 ```
 
--3
+- 3
 ```
 npm install
 ```
