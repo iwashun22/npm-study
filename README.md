@@ -23,3 +23,13 @@ There's `npm config get <key>` which you can get the information of that
 ```
 npm install
 ```
+
+This command will help you to get a part of dependencies.
+By using command `npm install <option> --save`.
+Now this `--save` is to save in dependencies in your package.json file.
+If there's dependencies in the file, other users can install those by only type command `npm install`
+
+There's also the dev-dependencies which is the part only using in development, not for source.
+The command option will be change to `--save-dev`.
+Other users can choose whether to install both of dependencies and dev-dependencies or only dependencies.
+`npm install --production`: command that only install dependencies.
