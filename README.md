@@ -29,6 +29,9 @@ By using command `npm install <option> --save`.
 Now this `--save` is to save in dependencies in your package.json file.
 If there's dependencies in the file, other users can install those by only type command `npm install`
 
+If you want to install a certain version of something, you can select it by this.
+Example: `npm install typescript@4.1.3`
+
 There's also the dev-dependencies which is the part only using in development, not for source.
 The command option will be change to `--save-dev`.
 Other users can choose whether to install both of dependencies and dev-dependencies or only dependencies.
