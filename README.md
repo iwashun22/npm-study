@@ -33,3 +33,13 @@ There's also the dev-dependencies which is the part only using in development, n
 The command option will be change to `--save-dev`.
 Other users can choose whether to install both of dependencies and dev-dependencies or only dependencies.
 `npm install --production`: command that only install dependencies.
+
+## Uninstall
+```
+npm uninstall
+npm remove 
+npm rm
+```
+
+Every commands here are same, it will uninstall the package from your file.
+In case you want to uninstall from dependencies you can use command `npm rm <option> --save`.
