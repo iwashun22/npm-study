@@ -46,3 +46,11 @@ npm rm
 
 Every commands here are same, it will uninstall the package from your file.
 In case you want to uninstall from dependencies you can use command `npm rm <option> --save`.
+
+## Using yarn
+
+`yarn` is the package manager just like npm, but it's more faster and efficient to build up. In `yarn`, every commands look the same to npm, except for installing it will change to...
+```sh
+yarn add
+# not install
+```
